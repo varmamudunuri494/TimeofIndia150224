@@ -4,7 +4,7 @@ Library                         String
 *** Variables ***
 # IMPORTANT: Please read the readme.txt to understand needed variables and how to handle them!!
 ${BROWSER}                      chrome
-${login_url}                    https://timesofindia.indiatimes.com/
+#${login_url}                    https://timesofindia.indiatimes.com/
 ${Home_url}                     https://timesofindia.indiatimes.com/
 
 *** Keywords ***
