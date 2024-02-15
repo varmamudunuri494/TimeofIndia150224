@@ -8,7 +8,7 @@ Suite Teardown             Close All Browsers
 Resource                   ../CommonRobotforTimesofIndia/Timesconnection.robot
 
 *** Test Cases ***
-To test amazon site
+To test TimesofIndia
     [Tags]                 TimesofIndia Site
     [Documentation]        Times of India Site
     Appstate               Home
