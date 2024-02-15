@@ -15,6 +15,9 @@ To test amazon site
     ${Accept}=             IsElement                   //button[@id\='onetrust-accept-btn-handler']
     ${Manage}=             IsElement                   //button[@class\='fc-button fc-cta-manage-options fc-secondary-button']
     ${SecondaryButton}=    IsElement                   //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
+    Log                    ${Accept}
+    Log                    ${Manage}
+    Log                    ${SecondaryButton}
     Run Keyword If         '${Accept}'=='True'         ClickText                   //button[@id\='onetrust-accept-btn-handler']
     Run Keyword If         '${Manage}'=='True'         ClickText                   //button[@class\='fc-button fc-cta-manage-options fc-secondary-button']
     Run Keyword If         '${SecondaryButton}'=='True'                            ClickText                   //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
