@@ -18,8 +18,9 @@ To test TimesofIndia
     #ClickText          //*[@id\="app"]/div/div[2]/div/div[2]/div/div/div/div[1]/nav/ul/li[3]/a
     ClickText          India
     SwitchWindow       NEW
-    ClickText          Web Stories
-    ClickText          Haryana
+    #ClickText          Web Stories
+    #Sleep              5s
+    #ClickText          Haryana
     #Sleep             10s
     #ClickText         //div[@class\='EV3DB        ']//li[@class\='sBgUN hello CrfNJ']//span[@class\='oTh_B']
     Sleep              10s
