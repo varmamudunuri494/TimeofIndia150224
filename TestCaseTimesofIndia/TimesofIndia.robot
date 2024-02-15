@@ -11,6 +11,6 @@ Resource               ../CommonRobotforTimesofIndia/Timesconnection.robot
 To test amazon site
     [Tags]             TimesofIndia Site
     [Documentation]    Times of India Site
-    Appstate           Home
+    Appstate           Home         
     Sleep              2s
     
