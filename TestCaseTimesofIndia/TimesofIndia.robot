@@ -18,4 +18,4 @@ To test TimesofIndia
     ClickText          //*[@id\="app"]/div/div[2]/div/div[2]/div/div/div/div[1]/nav/ul/li[3]/a
     Sleep              10s
     ClickText          //*[@id\="app"]/div/div[2]/div[2]/div[3]/div/div/div/div[2]/nav/ul/li[11]/span
-    Sleep              2s
+    Sleep              10s
