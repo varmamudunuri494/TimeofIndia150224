@@ -15,5 +15,5 @@ To test TimesofIndia
     ClickText          //button[@id\='onetrust-accept-btn-handler']
     ClickText          //button[@class\='fc-button fc-cta-manage-options fc-secondary-button']
     ClickText          //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
-    
+    ClickText          //*[@id\="app"]/div/div[2]/div/div[2]/div/div/div/div[1]/nav/ul/li[3]/a
     Sleep              2s
