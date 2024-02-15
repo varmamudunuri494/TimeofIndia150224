@@ -20,4 +20,3 @@ To test TimesofIndia
     ClickText          Web Stories
     ClickText          Jammu Kashmir
     Sleep              10s
-
