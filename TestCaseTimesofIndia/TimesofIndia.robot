@@ -15,14 +15,9 @@ To test TimesofIndia
     ClickText          //button[@id\='onetrust-accept-btn-handler']
     ClickText          //button[@class\='fc-button fc-cta-manage-options fc-secondary-button']
     ClickText          //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
-    #ClickText          //*[@id\="app"]/div/div[2]/div/div[2]/div/div/div/div[1]/nav/ul/li[3]/a
     ClickText          India
     SwitchWindow       NEW
-    
-    #ClickText          Web Stories
-    #Sleep              5s
-    #ClickText          Haryana
-    #Sleep             10s
-    #ClickText         //div[@class\='EV3DB        ']//li[@class\='sBgUN hello CrfNJ']//span[@class\='oTh_B']
+    ClickText          Web Stories
+    ClickText          Jammu Kashmir
     Sleep              10s
 
