@@ -11,6 +11,9 @@ Resource               ../CommonRobotforTimesofIndia/Timesconnection.robot
 To test amazon site
     [Tags]             TimesofIndia Site
     [Documentation]    Times of India Site
-    Appstate           Home         
+    Appstate           Home
+    ClickText          //button[@id\='onetrust-accept-btn-handler']
+    ClickText          //button[@class\='fc-button fc-cta-manage-options fc-secondary-button']
+    ClickText          //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
     Sleep              2s
     
