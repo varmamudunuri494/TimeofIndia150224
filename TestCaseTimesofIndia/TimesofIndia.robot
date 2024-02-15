@@ -9,8 +9,8 @@ Resource               ../CommonRobotforTimesofIndia/Timesconnection.robot
 
 *** Test Cases ***
 To test amazon site
-    [Tags]             Varma
-    [Documentation]    Login to Amazon instance
+    [Tags]             TimesofIndia Site
+    [Documentation]    Times of India Site
     Appstate           Home
     Sleep              2s
     
