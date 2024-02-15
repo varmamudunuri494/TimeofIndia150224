@@ -17,5 +17,5 @@ To test TimesofIndia
     ClickText          //button[@class\='fc-button fc-data-preferences-accept-all fc-secondary-button']
     ClickText          //*[@id\="app"]/div/div[2]/div/div[2]/div/div/div/div[1]/nav/ul/li[3]/a
     Sleep              10s
-    ClickText          //*[@id\="app"]/div/div[2]/div[2]/div[3]/div/div/div/div[2]/nav/ul/li[11]/span
+    ClickText          //div[@class\='EV3DB  ']//li[@class\='sBgUN hello CrfNJ']
     Sleep              10s
